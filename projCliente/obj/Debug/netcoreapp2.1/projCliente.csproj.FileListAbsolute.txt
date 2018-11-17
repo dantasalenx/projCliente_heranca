@@ -1,0 +1,11 @@
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.csprojAssemblyReference.cache
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.AssemblyInfoInputs.cache
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.AssemblyInfo.cs
+/Users/aluno/Projects/projCliente/projCliente/bin/Debug/netcoreapp2.1/projCliente.deps.json
+/Users/aluno/Projects/projCliente/projCliente/bin/Debug/netcoreapp2.1/projCliente.runtimeconfig.json
+/Users/aluno/Projects/projCliente/projCliente/bin/Debug/netcoreapp2.1/projCliente.runtimeconfig.dev.json
+/Users/aluno/Projects/projCliente/projCliente/bin/Debug/netcoreapp2.1/projCliente.dll
+/Users/aluno/Projects/projCliente/projCliente/bin/Debug/netcoreapp2.1/projCliente.pdb
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.dll
+/Users/aluno/Projects/projCliente/projCliente/obj/Debug/netcoreapp2.1/projCliente.pdb

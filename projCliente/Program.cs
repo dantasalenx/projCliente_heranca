@@ -1,0 +1,63 @@
+﻿using System;
+namespace projCliente
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Bairro bairro = new Bairro();
+
+            Console.WriteLine("Informe a opcao que deseja: ");
+            Console.Write("1 - PF | 2 - PJ :");
+
+            int tipo = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
+
+            Console.WriteLine("Informe o nome: ");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Informe o endereco: ");
+            string endereco = Console.ReadLine();
+
+            Console.WriteLine("Informe o nome do bairro: ");
+            bairro.Nome = Console.ReadLine();
+
+            switch (tipo)
+            {
+                case 1:
+                    Console.WriteLine("Informe o CPF: ");
+                    string cpf = Console.ReadLine();
+                    ClienteFisico clienteFisico = new ClienteFisico(nome, endereco, bairro, cpf);
+                    Console.Clear();
+                    Console.WriteLine("Nome: " + clienteFisico.Nome);
+                    Console.WriteLine("CPF: " + clienteFisico.CPF);
+                    Console.WriteLine("Endereco: " + clienteFisico.Endereco);
+                    Console.WriteLine("Bairro: " + clienteFisico.Bairro.Nome);
+
+                    clienteFisico.dizQuemSouMesmo();
+
+                    break;
+                case 2:
+                    Console.WriteLine("Informe o CNPJ: ");
+                    string cnpj = Console.ReadLine();
+                    ClienteJuridico clienteJuridico = new ClienteJuridico(nome, endereco, bairro, cnpj);
+                    Console.Clear();
+                    Console.WriteLine("Nome: " + clienteJuridico.Nome);
+                    Console.WriteLine("CNPJ: " + clienteJuridico.CNPJ);
+                    Console.WriteLine("Endereco: " + clienteJuridico.Endereco);
+                    Console.WriteLine("Bairro: " + clienteJuridico.Bairro.Nome);
+
+                    clienteJuridico.dizQuemSouMesmo();
+
+                    break;
+                default:
+                    // do_something;
+                    break;
+            }
+
+
+        }
+
+
+    }
+}
